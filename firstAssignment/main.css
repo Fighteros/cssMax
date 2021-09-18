@@ -1,0 +1,26 @@
+body {
+    font-family: serif;
+}
+#assignment-instructions {
+    color: blueviolet;
+    font-family: sans-serif;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+.code {
+    color: green;
+}
+
+li + li {
+    background: black;
+    color: white;
+}
+
+ol li {
+    background: black;
+    color: white;
+}

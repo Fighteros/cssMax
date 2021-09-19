@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+}
+
+div {
+    display: inline-block;
+    /* padding: 8px 16px 9px 18px;
+    margin: 8px 16px 9px 18px; */
+    border: solid 2px purple;
+    padding: 16px;
+    margin: 0 16px;
+}
+
+.first-box {
+    /* display:none; */
+    /* visibility: hidden; */
+    width: 50%;
+    margin: 0;
+    height: 300px;
+}
+.second-box {
+    border-radius: 8px;
+}
+
+.second-box:hover {
+    color: white;
+    background: purple;
+    border: none;
+}

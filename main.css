@@ -34,13 +34,23 @@ body {
 
 }
 
-.main-header > div, .main-nav {
+.main-header > div {
+    vertical-align: middle;
     display: inline-block;
 }
 
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .main-nav {
-    width: calc(100% - 55px);
+    display: inline-block;
+    width: calc(100% - 76px);
     text-align: right;
+    vertical-align: middle;
 }
 
 .main-nav__items {
@@ -51,6 +61,10 @@ body {
 
 .main-nav__item {
     display: inline-block;
+    margin: 0 16px;
 }
 
- 
+.main-nav__item a {
+    color: #0e4f1f;
+    text-decoration: none;
+}

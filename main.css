@@ -13,7 +13,7 @@ body {
     height: 520px;
     padding: 10px;
 }
-
+/* Section Plans */
 .section-title  {
     color: #2ddf5c;
 
@@ -27,6 +27,19 @@ body {
 /* h1 {
     font-family: sans-serif;
 } */
+
+.plan {
+    background-color: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+
+/* Header */
 
 .main-header {
     background: #2ddf5c;
@@ -101,3 +114,4 @@ body {
     background: white;
     border: none; 
 }
+
